@@ -1,3 +1,4 @@
+import random
 
 
 def print_hello(text):
@@ -6,4 +7,6 @@ def print_hello(text):
 
 #print('Hello World')
 #print('What a beautiful day')
-print_hello('this is a test')
+
+my_rand: int = random.randint(1, 6)
+print_hello(f'this is my number: {str(my_rand)}')
